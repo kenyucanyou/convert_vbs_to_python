@@ -82,8 +82,8 @@ def is_vbs_bootstrap_if(line: str) -> bool:
 
 if __name__ == "__main__":
     convert_vbs_to_python(
-        r"C:\Users\10262397\AppData\Roaming\SAP\SAP GUI\Scripts\TID.vbs",
-        r"C:\Users\10262397\AppData\Roaming\SAP\SAP GUI\Scripts\TID2.py",
+        r"C:\Users\admin\AppData\Roaming\SAP\SAP GUI\Scripts\TID.vbs",
+        r"C:\Users\admin\AppData\Roaming\SAP\SAP GUI\Scripts\TID2.py",
         encoding="utf-16"   # 如果是 utf-8，直接改这里
     )
     print("转换完成")
